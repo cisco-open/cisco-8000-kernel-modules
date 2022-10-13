@@ -1,0 +1,13 @@
+#!/bin/make -f
+
+subdir-ccflags-y += -Werror
+subdir-ccflags-y += -Wall
+subdir-ccflags-y += -Wextra
+subdir-ccflags-y += -Wno-unused-parameter
+subdir-ccflags-y += -Wno-override-init
+subdir-ccflags-y += -Wno-type-limits
+subdir-ccflags-y += -Wno-missing-field-initializers
+subdir-ccflags-y += -Wno-sign-compare
+
+obj-m :=
+obj-y += cisco/
