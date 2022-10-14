@@ -17,6 +17,7 @@ obj-m += cisco-fpga-i2c-ext.o
 obj-m += cisco-fpga-info.o
 obj-m += cisco-fpga-msd.o
 obj-m += cisco-fpga-pseq.o
+obj-m += cisco-fpga-xil.o
 
 mfd-$(CONFIG_MFD_CORE) += cisco-fpga-bmc.o
 obj-m += $(sort $(mfd-y) $(mfd-m))
