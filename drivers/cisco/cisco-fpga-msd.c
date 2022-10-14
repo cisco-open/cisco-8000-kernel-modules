@@ -231,7 +231,6 @@ static struct platform_driver cisco_fpga_msd_driver = {
 module_platform_driver(cisco_fpga_msd_driver);
 
 MODULE_AUTHOR("Cisco Systems, Inc. <ospo-kmod@cisco.com>");
-MODULE_AUTHOR("Cisco Systems, Inc. <ospo-kmod@cisco.com>");
 MODULE_DESCRIPTION("Cisco FPGA ms_dev driver");
 MODULE_LICENSE("GPL v2");
 MODULE_ALIAS(PLATFORM_MODULE_PREFIX DRIVER_NAME);

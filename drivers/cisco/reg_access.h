@@ -2,7 +2,7 @@
 /*
  * Cisco 8000 register access definitions
  *
- * Copyright (c) 2019 by Cisco Systems, Inc.
+ * Copyright (c) 2019, 2022 by Cisco Systems, Inc.
  * All rights reserved.
  */
 #ifndef _CISCO_REG_ACCESS_H

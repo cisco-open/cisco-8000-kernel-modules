@@ -238,8 +238,6 @@ static struct i2c_driver cisco_fpga_bmc_driver = {
 module_i2c_driver(cisco_fpga_bmc_driver);
 
 MODULE_AUTHOR("Cisco Systems, Inc. <ospo-kmod@cisco.com>");
-MODULE_AUTHOR("Cisco Systems, Inc. <ospo-kmod@cisco.com>");
-MODULE_AUTHOR("Cisco Systems, Inc. <ospo-kmod@cisco.com>");
 MODULE_DESCRIPTION("Cisco BMC FPGA Driver");
 MODULE_LICENSE("GPL v2");
 MODULE_VERSION(DRIVER_VERSION);
